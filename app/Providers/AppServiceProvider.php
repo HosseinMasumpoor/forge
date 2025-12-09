@@ -20,7 +20,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        if(env('APP_ENV') == 'local') {
+        if(config('app.env') == 'local') {
             Schema::defaultStringLength(191);
         }
     }

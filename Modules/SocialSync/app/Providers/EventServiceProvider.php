@@ -1,0 +1,30 @@
+<?php
+
+namespace Modules\SocialSync\Providers;
+
+use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
+use Modules\SocialSync\app\Events\PostCreated;
+
+class EventServiceProvider extends ServiceProvider
+{
+    /**
+     * The event handler mappings for the application.
+     *
+     * @var array<string, array<int, string>>
+     */
+    protected $listen = [
+        // PostCreated event is handled in the Subscription module's EventServiceProvider
+    ];
+
+    /**
+     * Indicates if events should be discovered.
+     *
+     * @var bool
+     */
+    protected static $shouldDiscoverEvents = false;
+
+    /**
+     * Configure the proper event listeners for email verification.
+     */
+    protected function configureEmailVerification(): void {}
+}

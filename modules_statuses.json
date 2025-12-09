@@ -1,3 +1,7 @@
 {
-    "Core": true
+    "Core": true,
+    "User": true,
+    "Subscription": true,
+    "Order": true,
+    "SocialSync": true
 }

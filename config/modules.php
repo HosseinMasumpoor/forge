@@ -139,7 +139,7 @@ return [
             'exceptions' => ['path' => 'app/Exceptions', 'generate' => false],
             'jobs' => ['path' => 'app/Jobs', 'generate' => false],
             'helpers' => ['path' => 'app/Helpers', 'generate' => false],
-            'interfaces' => ['path' => 'app/Interfaces', 'generate' => false],
+            'interfaces' => ['path' => 'app/Interfaces', 'generate' => true],
             'listener' => ['path' => 'app/Listeners', 'generate' => false],
             'model' => ['path' => 'app/Models', 'generate' => true],
             'notifications' => ['path' => 'app/Notifications', 'generate' => false],

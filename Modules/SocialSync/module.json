@@ -1,0 +1,11 @@
+{
+    "name": "SocialSync",
+    "alias": "socialsync",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SocialSync\\Providers\\SocialSyncServiceProvider"
+    ],
+    "files": []
+}
