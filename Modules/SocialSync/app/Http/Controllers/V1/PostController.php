@@ -136,7 +136,7 @@ class PostController extends CoreController
     {
         $result = $this->service->getScheduledPosts()->oldest()->get();
         if($result){
-            return successResponse([], __('socialsync::messages.post.updated_successfully'));
+            return successResponse($result);
         }
         return failedResponse(__('core::messages.error'));
     }
@@ -147,7 +147,7 @@ class PostController extends CoreController
         $result = $this->service->update($data['id'], ['scheduled_at' =>$data['scheduled_at']]);
 
         if($result){
-            return successResponse($result);
+            return successResponse([], __('socialsync::messages.post.updated_successfully'));
         }
         return failedResponse(__('socialsync::messages.post.error'));
     }
