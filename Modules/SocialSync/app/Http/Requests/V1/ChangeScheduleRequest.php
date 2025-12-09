@@ -4,7 +4,6 @@ namespace Modules\SocialSync\app\Http\Requests\V1;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Modules\SocialSync\app\Rules\ScheduleChangeablePost;
-use Modules\SocialSync\app\Rules\UserOwnsSocialAccounts;
 
 class ChangeScheduleRequest extends FormRequest
 {

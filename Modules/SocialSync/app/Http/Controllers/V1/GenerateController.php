@@ -4,7 +4,6 @@ namespace Modules\SocialSync\app\Http\Controllers\V1;
 
 use Illuminate\Http\Request;
 use Modules\Core\Http\Controllers\CoreController;
-use Modules\Core\Services\StorageService;
 use Modules\SocialSync\app\Http\Requests\V1\GenerateImageRequest;
 use Modules\SocialSync\app\Http\Requests\V1\GenerateTextRequest;
 use Modules\SocialSync\app\Services\GenerateService;

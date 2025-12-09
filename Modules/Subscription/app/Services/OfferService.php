@@ -2,8 +2,6 @@
 
 namespace Modules\Subscription\app\Services;
 
-use Modules\Subscription\app\Enums\SubscriptionOfferStatus;
-use Modules\Subscription\app\Interfaces\Repositories\PlanRepositoryInterface;
 use Modules\Subscription\app\Interfaces\Repositories\SubscriptionOfferRepositoryInterface;
 
 class OfferService

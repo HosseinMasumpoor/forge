@@ -3,9 +3,9 @@
 namespace Modules\Order\app\Services\Gateway;
 
 
+use Modules\Order\app\Enums\TransactionStatus;
 use Modules\Order\app\Interfaces\GatewayInterface;
 use Modules\Order\app\Repositories\Eloquent\TransactionRepository;
-use Modules\Order\app\Enums\TransactionStatus;
 
 class Test implements GatewayInterface
 {

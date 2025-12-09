@@ -4,8 +4,6 @@ namespace Modules\Subscription\app\Repositories\Eloquent;
 use Modules\Core\app\Repositories\BaseRepository;
 use Modules\Subscription\app\Interfaces\Repositories\UserSubscriptionRepositoryInterface;
 use Modules\Subscription\app\Models\UserSubscription;
-use Modules\User\app\Interfaces\Repositories\UserRepositoryInterface;
-use Modules\User\Models\User;
 
 class UserSubscriptionRepository extends BaseRepository implements UserSubscriptionRepositoryInterface
 {

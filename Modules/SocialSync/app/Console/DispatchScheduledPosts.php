@@ -5,11 +5,8 @@ namespace Modules\SocialSync\app\Console;
 use Illuminate\Console\Command;
 use Modules\SocialSync\app\Enums\PostStatus;
 use Modules\SocialSync\app\Jobs\PublishPostJob;
-use Modules\SocialSync\app\Models\Post;
 use Modules\SocialSync\app\Services\PostService;
 use Symfony\Component\Console\Command\Command as CommandAlias;
-use Symfony\Component\Console\Input\InputOption;
-use Symfony\Component\Console\Input\InputArgument;
 
 class DispatchScheduledPosts extends Command
 {

@@ -2,11 +2,10 @@
 
 namespace Modules\SocialSync\app\Http\Controllers\V1;
 
-use Illuminate\Http\Request;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
+use Illuminate\Http\Request;
 use Modules\Core\Http\Controllers\CoreController;
 use Modules\SocialSync\app\Http\Requests\V1\UpdateSocialAccountRequest;
-use Modules\SocialSync\app\Models\SocialAccount;
 use Modules\SocialSync\app\Services\SocialMediaProviderResolver;
 use Modules\SocialSync\app\Services\TextGeneratorProviders\SocialAccountService;
 

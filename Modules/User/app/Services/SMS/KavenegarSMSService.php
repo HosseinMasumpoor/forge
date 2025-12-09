@@ -2,8 +2,6 @@
 
 namespace Modules\User\Services\SMS;
 
-use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Facades\Log;
 use Modules\User\Interfaces\SendOTPInterface;
 
 class KavenegarSMSService implements SendOTPInterface,SendSMSInterface

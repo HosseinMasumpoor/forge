@@ -4,7 +4,6 @@ namespace Modules\User\Services\AuthDrivers;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Modules\User\Interfaces\AuthDriverInterface;
-use Tymon\JWTAuth\Facades\JWTAuth;
 
 class SanctumService implements AuthDriverInterface
 {

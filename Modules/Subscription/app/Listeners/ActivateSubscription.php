@@ -3,8 +3,6 @@
 namespace Modules\Subscription\app\Listeners;
 
 use Carbon\Carbon;
-use Illuminate\Queue\InteractsWithQueue;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Modules\Subscription\app\Models\UserSubscription;
 use Modules\Subscription\app\Services\SubscriptionService;
 

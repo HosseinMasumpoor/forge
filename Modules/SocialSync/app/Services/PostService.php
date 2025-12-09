@@ -13,7 +13,6 @@ use Modules\SocialSync\app\Events\PostCreated;
 use Modules\SocialSync\app\Interfaces\Repositories\PostRepositoryInterface;
 use Modules\SocialSync\app\Interfaces\Repositories\SocialAccountRepositoryInterface;
 use Modules\SocialSync\app\Jobs\PublishPostJob;
-use Modules\SocialSync\app\Models\Post;
 
 class PostService
 {

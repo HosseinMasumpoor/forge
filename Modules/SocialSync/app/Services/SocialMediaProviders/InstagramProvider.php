@@ -5,9 +5,9 @@ namespace Modules\SocialSync\app\Services\SocialMediaProviders;
 use Exception;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
+use Laravel\Socialite\Socialite;
 use Modules\SocialSync\app\Interfaces\SocialMediaProviderInterface;
 use RuntimeException;
-use Laravel\Socialite\Socialite;
 
 
 class InstagramProvider implements SocialMediaProviderInterface

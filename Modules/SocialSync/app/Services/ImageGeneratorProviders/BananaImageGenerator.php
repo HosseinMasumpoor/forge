@@ -2,9 +2,7 @@
 
 namespace Modules\SocialSync\app\Services\ImageGeneratorProviders;
 
-use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Str;
 use Modules\Core\Services\APIService;
 use Modules\Core\Traits\Media;
 use Modules\SocialSync\app\Interfaces\ImageGeneratorInterface;

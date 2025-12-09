@@ -1,8 +1,6 @@
 <?php
 namespace Modules\Subscription\app\Interfaces\Repositories;
 
-use Modules\Subscription\app\Models\UserSubscription;
-
 interface UserSubscriptionRepositoryInterface
 {
     public function getByFields($fields);

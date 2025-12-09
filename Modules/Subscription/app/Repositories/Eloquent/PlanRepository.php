@@ -6,8 +6,6 @@ use Modules\Core\app\Repositories\BaseRepository;
 use Modules\Subscription\app\Enums\SubscriptionOfferStatus;
 use Modules\Subscription\app\Interfaces\Repositories\PlanRepositoryInterface;
 use Modules\Subscription\app\Models\Plan;
-use Modules\User\app\Interfaces\Repositories\UserRepositoryInterface;
-use Modules\User\Models\User;
 
 class PlanRepository extends BaseRepository implements PlanRepositoryInterface
 {

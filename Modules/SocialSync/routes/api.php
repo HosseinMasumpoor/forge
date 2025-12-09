@@ -3,7 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use Modules\SocialSync\app\Http\Controllers\V1\GenerateController;
 use Modules\SocialSync\app\Http\Controllers\V1\PostController;
-use Modules\SocialSync\Http\Controllers\SocialSyncController;
 use Modules\SocialSync\app\Http\Controllers\V1\SocialAccountController;
 
 Route::prefix('v1')->group(function () {
